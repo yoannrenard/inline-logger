@@ -1,0 +1,23 @@
+{
+    "name": "yoannrenard/inline-logger",
+    "description": "Stdout your logs directly! ",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yoann Renard",
+            "email": "renard.yoann@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "YoannRenard\\": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "psr/log": "^1.0"
+    }
+}
